@@ -18,4 +18,4 @@ jobs:
           go-version: 1.18
 
       - name: Test
-        run: go test fizzbuzz_test.go fizzbuzz.go
+        run: go test ut/fizzbuzz_test.go ut/fizzbuzz.go

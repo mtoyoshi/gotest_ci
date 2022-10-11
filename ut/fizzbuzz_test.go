@@ -16,7 +16,7 @@ func TestFizzBuzz(t *testing.T) {
 			args: args{
 				nums: []int{1, 2, 3},
 			},
-			want: "hello",
+			want: "hello2",
 		},
 	}
 	for _, tt := range tests {
